@@ -7,6 +7,18 @@ Include
 
 Laravel User System
 
+Require Database setup
+open .env file and edit mysql database information then do followin commands 
+
+New tirminal 
+
+
+php artisan migrate
+
+php artisan serve
+
+
+
 1- API Login ->find on -> [controller -> UserController -> login function]
 
 2- API Resgister ->find on -> [controller -> UserController -> register function]
